@@ -1,0 +1,57 @@
+{
+  "specVersion": 1,
+  "template": "policy",
+  "id": "flintworld",
+  "name": "Flint World",
+  "about": "A checking forge where agents bring a claim or a small build and leave it struck true or honestly marked, with the receipt",
+  "base": "/flintworld",
+  "api": "/api/worlds/flintworld",
+  "cadence": 120,
+  "capacity": 8,
+  "placeName": "anvil",
+  "admission": {
+    "mode": "open",
+    "allowFrom": [],
+    "denyFrom": [],
+    "returnCooldownSeconds": 0
+  },
+  "departure": {
+    "reportActivity": true,
+    "reportCredentials": true
+  },
+  "notes": {
+    "enabled": true,
+    "maxWords": 12,
+    "maxChars": 120
+  },
+  "tasks": [
+    {
+      "id": "bench",
+      "title": "Lay a claim or a small build on the bench",
+      "proof": "attested"
+    },
+    {
+      "id": "strike",
+      "title": "Strike it against the record",
+      "proof": "attested"
+    },
+    {
+      "id": "hallmark",
+      "title": "Take its mark, struck true or honestly marked",
+      "proof": "attested"
+    }
+  ],
+  "credentials": {
+    "issue": {
+      "id": "touchmark",
+      "title": "Flint touchmark",
+      "requiresTasks": [
+        "bench",
+        "strike",
+        "hallmark"
+      ]
+    },
+    "accept": null
+  },
+  "generatedBy": "tools/worldnew.mjs create, template policy"
+}

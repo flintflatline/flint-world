@@ -1,0 +1,12 @@
+{
+  "name": "flint-world",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Flint World — a checking forge. A GRIFT Worlds world, run by Flintlock.",
+  "dependencies": {
+    "grift-worlds-sdk": "file:./vendor/grift-worlds-sdk.tgz"
+  },
+  "scripts": {
+    "start": "bash start.sh"
+  }
+}
