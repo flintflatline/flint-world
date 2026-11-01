@@ -1,0 +1,77 @@
+{
+  "chainId": 46630,
+  "id": "flintworld",
+  "worldId": "0xaf411ca741d7f2e9e69547212bebf6a46450985a782eb6d030e479cb95f8cda2",
+  "origin": "https://flint-world.onrender.com",
+  "cadence": 120,
+  "fromBlock": 146302174,
+  "index": "0xF7a11aA72B36d9D505819025614240A39742Ed72",
+  "role": "RESPONSE_SIGNER",
+  "commits": "0xc29a3740f1921948c0743a9de95876d8b0f5e735",
+  "keyRegistry": "0xc513076d0719d09f5d3f7dae0c598b3a967cd134",
+  "operator": "0x4087d9Dbf358dfB3eAC6aBB0b4d54baB72c027D5",
+  "signer": "0x285b5553fD9274F09b07E38A96Aa4EcA404028fB",
+  "committer": "0xd0774486b9c82DdFadcaf05661142A77A9605A14",
+  "listing": {
+    "tx": "0xbf5717ed2948bc7735d1f9d459327312de8fdf0976d97435574c1dd006ae81f4",
+    "uri": "https://flint-world.onrender.com/flintworld/.well-known/world.json",
+    "feeBurnTx": "0x5231fd4910bf71ac55a963cca865e7503fcf9a84558786497d93664356c68802"
+  },
+  "txs": [
+    {
+      "label": "flintworld: deploy CityCommitsV2",
+      "tx": "0xad334678504a81931e7aa55df43df8349655e75bd99a7d779e22d563f5e2938a",
+      "block": 146302189,
+      "gasUsed": 1133664,
+      "from": "0x4087d9dbf358dfb3eac6abb0b4d54bab72c027d5",
+      "to": null,
+      "contract": "0xc29a3740f1921948c0743a9de95876d8b0f5e735"
+    },
+    {
+      "label": "flintworld: addStream 1 records",
+      "tx": "0xbf6dbe6d2ba834df16c4c76c146cdbe3a38fd09738acd10b0d5393ee96612e72",
+      "block": 146302205,
+      "gasUsed": 119876,
+      "from": "0x4087d9dbf358dfb3eac6abb0b4d54bab72c027d5",
+      "to": "0xc29a3740f1921948c0743a9de95876d8b0f5e735",
+      "contract": null
+    },
+    {
+      "label": "flintworld: addStream 2 decisions",
+      "tx": "0x171fd0909d9bbc785b82151875bdf14cee060e7177e89e8153dc5012d5e3886f",
+      "block": 146302223,
+      "gasUsed": 102800,
+      "from": "0x4087d9dbf358dfb3eac6abb0b4d54bab72c027d5",
+      "to": "0xc29a3740f1921948c0743a9de95876d8b0f5e735",
+      "contract": null
+    },
+    {
+      "label": "flintworld: addStream 16 manifest",
+      "tx": "0x6b91931a5ef21e764601d0ca736af1114ca00bfb6c04414532de8abf7ccaac2b",
+      "block": 146302237,
+      "gasUsed": 102788,
+      "from": "0x4087d9dbf358dfb3eac6abb0b4d54bab72c027d5",
+      "to": "0xc29a3740f1921948c0743a9de95876d8b0f5e735",
+      "contract": null
+    },
+    {
+      "label": "flintworld: deploy its key registry",
+      "tx": "0x0e72860189f02354250f4b6bc46d394a4f2e8454951a00cb1d4899b0534442c9",
+      "block": 146302257,
+      "gasUsed": 872271,
+      "from": "0x4087d9dbf358dfb3eac6abb0b4d54bab72c027d5",
+      "to": null,
+      "contract": "0xc513076d0719d09f5d3f7dae0c598b3a967cd134"
+    },
+    {
+      "label": "flintworld: WorldIndex.list",
+      "tx": "0xbf5717ed2948bc7735d1f9d459327312de8fdf0976d97435574c1dd006ae81f4",
+      "block": 146302270,
+      "gasUsed": 358329,
+      "from": "0x4087d9dbf358dfb3eac6abb0b4d54bab72c027d5",
+      "to": "0xf7a11aa72b36d9d505819025614240a39742ed72",
+      "contract": null
+    }
+  ],
+  "rehearsal": false
+}
