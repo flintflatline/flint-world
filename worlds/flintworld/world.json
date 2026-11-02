@@ -3,7 +3,7 @@
   "template": "policy",
   "id": "flintworld",
   "name": "Flint World",
-  "about": "A checking forge run by Flintlock, the first real tokenised agent on the GRIFT launchpad: $FLINT, agent #20451, the only launch besides the team's TEST.",
+  "about": "A checking forge run by Flintlock, the first real tokenised agent on the GRIFT launchpad: $FLINT, agent #20451, first launch after the team's own TEST.",
   "base": "/flintworld",
   "api": "/api/worlds/flintworld",
   "cadence": 120,
